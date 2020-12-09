@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+* {
+   font-size: 30px;
+   overflow: auto;
+}
+.logo{
+   margin-top: -4px;
+   background-image: url('logo.png');
+   background-repeat: no-repeat;
+   left: 10%;
+   top: 10%;
+   height: 80px;
+   z-index: 1;
+}
+.qna{
+   font-size: 50px;
+   color: gold;
+   background-color: black; /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+   border: 3px solid #f1f1f1;
+   position: absolute;
+   top: 94%;
+   left: 18%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 100%;
+   padding: 60px 750px;
+   padding-top: 30px;
+   padding-left: 200%;
+   text-indent: 30px;
+   border-radius: 0px;
+   background-size: cover;
+   max-width: 100%;
+   overflow-x: hidden;
+}
+.line{
+   color: black;
+   background-color: black; /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+   border: 3px solid #f1f1f1;
+   position: absolute;
+   top: 32%;
+   left: 31%;
+   padding top: 1px;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 50%;
+}
+.sub{
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+   position: absolute;
+   top: 16%;
+   left: 11%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 27.5%;
+   padding: 38px 40px;
+   text-align: center;
+}
+.sub2{
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+   position: absolute;
+   top: 24%;
+   left: 31.8%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 67.5%;
+   padding: 38px 40px;
+   text-align: center;
+}
+.sub3{
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+   position: absolute;
+   top: 40%;
+   left: 13.3%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 67.5%;
+   padding: 38px 40px;
+   text-align: center;
+}
+.sub4{
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+   position: absolute;
+   top: 48%;
+   left: 34.8%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 67.5%;
+   padding: 38px 40px;
+   text-align: center;
+}
+.uli {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 57px;
+  position: fixed;
+  z-index: 2;
+  left: 20%;
+  width: 78.5%;
+  overflow: hidden;
+  background-color: #333;
+  border: 2px solid mediumseagreen;
+  border-radius: 5px;
+  list-style-type: circle;
+}
+
+.li1 {
+  float: right;
+  margin-top: -5px;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+   animation: e 1s;
+   animation-fill-mode: both;
+}
+.li2{
+   margin-top: -5px;
+   float: left;
+}
+.active {
+  background-color: mediumseagreen;
+}
+@keyframes e {
+  from {background-color: mediumturquoise;}
+  to {background-color: mediumseagreen;}
+}
+@keyframes ee {
+  from {left: 95%;}
+  to {left: 80%;}
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+}
+</style>
+</head>
+<body>
+<ul class="uli">
+    <li class="li1"><a href="den.html">Home</a></li>
+    <li class="li1"><a href="pricing.html">Pricing</a></li>
+    <li class="li1"><a href="tutorial.html">Tutorial</a></li>
+    <li class="li1"><a href="sources.html" class="active">Sources</a></li>
+    <li class="li2"><a href="mailto:web.advance9@gmail.com">Email me here!</a></li>
+</ul>
+<div class="sub">Download Vidiq <a style="font-size: 28px" href="https://vidiq.com/">here</a></div>
+<div class="sub2">Check out their channel to gain knowledge of their tool: <a style="font-size: 28px" href="https://www.youtube.com/user/vidIQchannel">Vidiq channel</a></div>
+<div class="sub3">Download tubebuddy <a style="font-size: 28px" href="https://www.tubebuddy.com/">here</a></div>
+<div class="sub4">Check out their channel to gain knowledge of their tool: <a style="font-size: 28px" href="https://www.youtube.com/channel/UCo33niDKpTpgwZ_dohqvylg">TubeBuddy channel</a></div>
+<div class="qna"></div>
+<div class="line"></div>
+<a href="den.html"><div class="logo"></div></a>
+</body>
+</html>
